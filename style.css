@@ -1,0 +1,495 @@
+/* обнуление стилей  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    min-height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+/*body работает быстрее '*' */
+.body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+
+.top-heading {
+    width: 510px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.top_info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/index/top_back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.top_text {
+    width: 425px;
+}
+
+.top_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top_button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.top_other {
+    background-image: url(img/contact/contact_top.png);
+    background-repeat: no-repeat;
+    height: 471px;
+    background-position: center;
+}
+
+.contact {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-top: 106px;
+}
+
+.text_contact_top {
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chapter4 {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    color: #1F3F68;
+    margin-bottom: 14px;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.card_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.submit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 16px;
+    max-width: 425px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.content {
+    padding-top: 64px;
+}
+
+.card_box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.content_img {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.content_2_text {
+    width: 75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    text-align: center;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.project_img {
+    width: 100%;
+}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.content_2 {
+    margin-bottom: 112px;
+}
+
+.text_content_3 {
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 46px;
+    right: 64px;
+    top: 64px;
+    position: absolute;
+}
+
+.text_content_4 {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.project__parents {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__item_margin {
+    margin-right: 32px;
+}
+
+.card_img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.content_right {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding-left: 56px;
+    min-width: 540px;
+    max-height: 800px
+}
+
+.inp_area {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    align-self: center;
+    padding: 21px;
+}
+
+.footer {
+    background: #316099;
+
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle_footer {
+    margin-top: 91px;
+    margin-bottom: 96px;
+}
+
+.footer_h3 {
+    max-width: 340px;
+    color: #FFFFFF;
+}
+
+.footer_p {
+    max-width: 495px;
+    color: #FFFFFF;
+    margin-top: 32px;
+
+}
+
+.fotter_bottom {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.content_contact {
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-between;
+
+}
+
+.iframe {
+    margin-top: 96px;
+    margin-bottom: 112px;
+}
+
+.footer_button {
+    color: #FFFFFF;
+    background: #5A98D0;
+    width: 25%;
+    line-height: 26px;
+    text-decoration: none;
+    padding: 15px 80px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.footer_copy {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.wraper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.footer_p_a {
+    margin-top: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.anchor {
+    display: flex;
+}
+
+a:hover {
+    color: green;
+    background: orange;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top_info {
+        background-position: right 280px;
+        background-size: 44%;
+    }
+
+    .card_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content_img {
+        margin-bottom: 32px;
+    }
+
+    .fotter_bottom {
+        flex-direction: column;
+    }
+
+    .iframe {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .content_contact {
+
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 667px) {
+    .top-heading {
+        font-size: 32px;
+        line-height: 38px;
+        width: 100%;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu {
+        padding-top: 24px;
+    }
+
+    .top_info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .top_button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .content {
+        padding-top: 48px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .card_box {
+        padding-top: 32px;
+
+    }
+
+    .card_img {
+        width: 100%;
+    }
+
+    .content_2_text {
+        width: 100%;
+    }
+
+    .text_content_3 {
+        font-size: 16px;
+        line-height: 19px;
+        right: 16px;
+        top: 16px
+    }
+
+    .project__parents {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__item_margin {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .text_content_4 {
+        top: 26px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .content_2 {
+        margin-bottom: 64px;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        margin-bottom: 41px;
+    }
+
+    .tittle_footer {
+        margin-top: 18px;
+        margin-bottom: 40px;
+    }
+
+    .text_contact_top {
+        font-size: 16px
+    }
+
+    .contact {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .content_right {
+        min-width: 342.67px;
+        max-height: 514px;
+        padding-left: 35px;
+    }
+
+    .iframe {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}
